@@ -1,0 +1,14 @@
+server:
+  port: 8898
+
+# 给代码里面使用
+user:
+  userServiceUrl: http://localhost:8899/
+
+# 给actuator的info打印 http://localhost:8898/actuator/info
+info:
+  name: @project.artifactId@
+  encoding: @project.build.sourceEncoding@
+  java:
+    source: @java.version@
+    target: @java.version@
